@@ -2,8 +2,10 @@
 int main(){
 	int a;
 	int b;
-	printf("number1 and number2: ");
-	scanf("%d %d", &a, &b);
+	printf("number1 is: ");
+	scanf("%d",&a);
+	printf("number2 is: ");
+	scanf("%d",&b);
 	if (a>b){
 		printf("a in greater than b");
 		//diff of a and b
